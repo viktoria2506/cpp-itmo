@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/vikac/CLionProjects/HW03n/bye.cpp
+myLib.h
+C:/Users/vikac/CLionProjects/HW03n/myLib.h
+
+C:/Users/vikac/CLionProjects/HW03n/hello.cpp
+myLib.h
+C:/Users/vikac/CLionProjects/HW03n/myLib.h
+
+C:/Users/vikac/CLionProjects/HW03n/here.cpp
+myLib.h
+C:/Users/vikac/CLionProjects/HW03n/myLib.h
+
+C:/Users/vikac/CLionProjects/HW03n/main.cpp
+myLib.h
+C:/Users/vikac/CLionProjects/HW03n/myLib.h
+
+C:/Users/vikac/CLionProjects/HW03n/myLib.h
+iostream
+-
+

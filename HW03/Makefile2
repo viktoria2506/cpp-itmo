@@ -1,0 +1,30 @@
+CXX := g++
+
+DIR = out
+SOURCES := $(DIR)/hello.o $(DIR)/here.o $(DIR)/bye.o
+LIB := libmylib.so
+MAJOR := 5
+MINOR := 1
+RELEASE := 10
+SONAME := $(LIB).$(MAJOR)
+NAMELIB := $(SONAME).$(MINOR).$(RELEASE)
+
+all: $(DIR)/main
+
+$(DIR)/main: $(DIR)/main.o $(DIR)/$(NAMELIB) | $(DIR)
+	$(CXX) -o $@ $^
+
+$(DIR)/%.o: %.cpp myLib.h | $(DIR)
+	$(CXX) -c -o $@ $<
+
+$(DIR)/$(NAMELIB): $(SOURCES) | $(DIR)
+	$(CXX) -shared -Wl,-soname,$(SONAME) -o $@ $^
+	ln -s $(NAMELIB) $(DIR)/$(LIB)
+
+$(DIR):
+	mkdir -p $(DIR)
+
+.PHONY: clean
+
+clean:
+	rm -rf $(DIR)
