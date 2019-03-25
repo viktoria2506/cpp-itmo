@@ -1,0 +1,3 @@
+C:/Users/vikac/CLionProjects/HW10/cmake-build-debug/CMakeFiles/HW10.dir
+C:/Users/vikac/CLionProjects/HW10/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/vikac/CLionProjects/HW10/cmake-build-debug/CMakeFiles/rebuild_cache.dir
