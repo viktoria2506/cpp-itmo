@@ -1,0 +1,3 @@
+C:/Users/vikac/Desktop/codes/Array/cmake-build-debug/CMakeFiles/Array.dir
+C:/Users/vikac/Desktop/codes/Array/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/vikac/Desktop/codes/Array/cmake-build-debug/CMakeFiles/rebuild_cache.dir

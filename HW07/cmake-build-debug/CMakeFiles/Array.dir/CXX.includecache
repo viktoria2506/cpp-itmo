@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/vikac/Desktop/codes/Array/Array.h
+istream
+-
+Array.hpp
+C:/Users/vikac/Desktop/codes/Array/Array.hpp
+
+C:/Users/vikac/Desktop/codes/Array/Array.hpp
+algorithm
+-
+Array.h
+C:/Users/vikac/Desktop/codes/Array/Array.h
+
+C:/Users/vikac/Desktop/codes/Array/MyClass.cpp
+MyClass.h
+C:/Users/vikac/Desktop/codes/Array/MyClass.h
+
+C:/Users/vikac/Desktop/codes/Array/MyClass.h
+iostream
+-
+
+C:/Users/vikac/Desktop/codes/Array/main.cpp
+istream
+-
+iostream
+-
+Array.h
+C:/Users/vikac/Desktop/codes/Array/Array.h
+MyClass.h
+C:/Users/vikac/Desktop/codes/Array/MyClass.h
+
