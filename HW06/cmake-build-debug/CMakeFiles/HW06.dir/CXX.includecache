@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/vikac/CLionProjects/HW06/ImpreciseNumber.cpp
+ImpreciseNumber.h
+C:/Users/vikac/CLionProjects/HW06/ImpreciseNumber.h
+
+C:/Users/vikac/CLionProjects/HW06/ImpreciseNumber.h
+iostream
+-
+cmath
+-
+
+C:/Users/vikac/CLionProjects/HW06/main.cpp
+iostream
+-
+vector
+-
+ImpreciseNumber.h
+C:/Users/vikac/CLionProjects/HW06/ImpreciseNumber.h
+
