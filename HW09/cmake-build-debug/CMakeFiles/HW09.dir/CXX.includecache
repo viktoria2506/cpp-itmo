@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/vikac/CLionProjects/HW09/Array.h
+iostream
+-
+Array.hpp
+C:/Users/vikac/CLionProjects/HW09/Array.hpp
+
+C:/Users/vikac/CLionProjects/HW09/Array.hpp
+Array.h
+C:/Users/vikac/CLionProjects/HW09/Array.h
+
+C:/Users/vikac/CLionProjects/HW09/PrintValues.h
+typeinfo
+-
+
+C:/Users/vikac/CLionProjects/HW09/ToPair.h
+iostream
+-
+tuple
+-
+
+C:/Users/vikac/CLionProjects/HW09/main.cpp
+iostream
+-
+PrintValues.h
+C:/Users/vikac/CLionProjects/HW09/PrintValues.h
+ToPair.h
+C:/Users/vikac/CLionProjects/HW09/ToPair.h
+Array.h
+C:/Users/vikac/CLionProjects/HW09/Array.h
+
